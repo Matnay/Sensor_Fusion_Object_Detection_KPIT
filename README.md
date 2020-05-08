@@ -2,7 +2,7 @@
 
  - Ubuntu 16.04 Kinetic: ![](https://github.com/clynamen/nuscenes2bag/workflows/ubuntu_1604_kinetic/badge.svg)
 
-#nuscenes to rosbag
+# nuscenes to rosbag
 Simple C++ tool for converting the [nuScenes](https://www.nuscenes.org/) dataset from [Aptiv](https://www.aptiv.com).
 
 The tool loads the json metadata and then the sample files for each scene. The sample are converted in a suitable ROS msg and written to a bag. TF tree is also written.
@@ -35,10 +35,9 @@ This processes 4 scenes simultaneously, however the scene numbers are not proces
 ```
 rosrun nuscenes2bag nuscenes2bag --dataroot /path/to/nuscenes_mini_meta_v1.0/ --out nuscenes_bags/ --jobs 4
 ```
-- [] Radar support
+- [ ] Radar support
 
 
-## Authors
-
+## nuscenestobag
  - [clynamen](https://github.com/clynamen/)
  - [ChernoA](https://github.com/ChernoA)
