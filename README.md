@@ -1,8 +1,8 @@
-# nuScenes2Bag
+# Fusion of LiDAR, Depth Camera and Radar data for object classification
 
- - Ubuntu 18.04 Melodic: ![](https://github.com/clynamen/nuscenes2bag/workflows/ubuntu_1804_melodic/badge.svg)
  - Ubuntu 16.04 Kinetic: ![](https://github.com/clynamen/nuscenes2bag/workflows/ubuntu_1604_kinetic/badge.svg)
 
+#nuscenes to rosbag
 Simple C++ tool for converting the [nuScenes](https://www.nuscenes.org/) dataset from [Aptiv](https://www.aptiv.com).
 
 The tool loads the json metadata and then the sample files for each scene. The sample are converted in a suitable ROS msg and written to a bag. TF tree is also written.
@@ -12,10 +12,6 @@ Probably the original dataset is also collected by Aptiv using ROS, so most data
 ![](images/ros_preview.png)
 
 ## Install
-
-The `master` branch targets Ubuntu 18.04 and newer.
-The `ubuntu_1604` branch uses C++11 and has been tested on Ubuntu 16.04.
-
 The tool is a normal ROS package. Place it under a workspace and build it with catkin.
 
 ## Usage
@@ -39,35 +35,8 @@ This processes 4 scenes simultaneously, however the scene numbers are not proces
 ```
 rosrun nuscenes2bag nuscenes2bag --dataroot /path/to/nuscenes_mini_meta_v1.0/ --out nuscenes_bags/ --jobs 4
 ```
+- [] Radar support
 
-
-**Converting other datasets:**
-
-Convert a dataset with the metadata in a sub-directory called 'v2.0':
-```
-rosrun nuscenes2bag nuscenes2bag --dataroot /path/to/nuscenes_data_v2.0/ --version v2.0 --out nuscenes_bags/ --jobs 4
-```
-
-
-## Status
-
-Currently work in progress
-
-- [x] Image support
-- [x] Pointcloud support
-- [x] Radar support
-- [x] EgoPose and TF support
-- [x] Show progress
-- [ ] Better usability
-
-Create an Github issue for suggestion, bug and requests.
-
-## Thirdparty
-
-Built using:
-
- - https://github.com/nlohmann/json
- - http://github.com/en4bz/ThreadPool
 
 ## Authors
 
