@@ -1,7 +1,8 @@
 # Fusion of LiDAR, Depth Camera and Radar data for object classification
 
  - Ubuntu 16.04 Kinetic: ![](https://github.com/clynamen/nuscenes2bag/workflows/ubuntu_1604_kinetic/badge.svg)
-
+The output of multi_sensor_fusion based classification using Deep Learning based on ResNets.
+![Image EXAMPLE RESULT](https://github.com/Matnay/KPIT_Deep_Learning/blob/master/Screenshot%20from%202020-06-04%2012-10-31.png)
 # nuscenes to rosbag
 Simple C++ tool for converting the [nuScenes](https://www.nuscenes.org/) dataset from [Aptiv](https://www.aptiv.com).
 
@@ -41,3 +42,5 @@ rosrun nuscenes2bag nuscenes2bag --dataroot /path/to/nuscenes_mini_meta_v1.0/ --
 ## nuscenestobag
  - [clynamen](https://github.com/clynamen/)
  - [ChernoA](https://github.com/ChernoA)
+
+
