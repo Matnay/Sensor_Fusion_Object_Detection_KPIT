@@ -43,4 +43,5 @@ rosrun nuscenes2bag nuscenes2bag --dataroot /path/to/nuscenes_mini_meta_v1.0/ --
  - [clynamen](https://github.com/clynamen/)
  - [ChernoA](https://github.com/ChernoA)
 
+Run multi_sensor_fusion.py to view classification results
 
