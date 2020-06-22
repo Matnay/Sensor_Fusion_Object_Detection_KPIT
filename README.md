@@ -38,10 +38,20 @@ rosrun nuscenes2bag nuscenes2bag --dataroot /path/to/nuscenes_mini_meta_v1.0/ --
 ```
 - [ ] Radar support
 
-
-## nuscenestobag
+nuscenestobag
  - [clynamen](https://github.com/clynamen/)
  - [ChernoA](https://github.com/ChernoA)
 
-Run multi_sensor_fusion.py to view classification results
+LiDAR RADAR and monocular camera image fusion
 
+Data trained on nuscenes dataset
+After running rosbag run node to convert pointcloud into depth encoded 2d BEV frame representation 
+
+```
+rosrun fusion lidar_image_pub
+```
+
+Run multi_sensor_fusion.py to view classification results
+```
+rosrun fusion multi_sensor_fusion
+```
