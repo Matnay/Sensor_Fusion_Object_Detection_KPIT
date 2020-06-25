@@ -54,5 +54,5 @@ rosrun fusion lidar_image_pub
 
 Run multi_sensor_fusion.py to view classification results
 ```
-rosrun fusion multi_sensor_fusion
+rosrun fusion multi_sensor_fusion.py
 ```
