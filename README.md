@@ -2,7 +2,7 @@
 
  - Ubuntu 16.04 Kinetic: ![](https://github.com/clynamen/nuscenes2bag/workflows/ubuntu_1604_kinetic/badge.svg)
 The output of multi_sensor_fusion based object detection based on the Faster_RCNN_inception_v2 architecture
-**Implemented in Tensorflow 1.14**
+<br>**Implemented in Tensorflow 1.14**
 
 ![Image EXAMPLE RESULT](https://github.com/Matnay/KPIT_Fusion_Object_Detection_DL/blob/master/Screenshot%20from%202020-06-22%2015-14-01.png)
 ![Image EXAMPLE RESULT](https://github.com/Matnay/KPIT_Deep_Learning/blob/master/Screenshot%20from%202020-06-04%2012-10-31.png)
