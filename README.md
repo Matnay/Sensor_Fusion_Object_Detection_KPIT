@@ -58,3 +58,7 @@ Run multi_sensor_fusion.py to view classification results
 ```
 rosrun fusion ros_multi_sensor_fusion.py
 ```
+Object Detection implemented usinhg faster_rcnn_inception_v2
+```
+rosrun fusion faster_rcnn
+```
