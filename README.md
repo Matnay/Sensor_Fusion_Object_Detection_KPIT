@@ -63,4 +63,5 @@ Object Detection implemented usinhg faster_rcnn_inception_v2
 rosrun fusion faster_rcnn
 ```
 FUTURE WORK:
-* Incorporate RADAR data in detection and bounding box calculation
+- Incorporate RADAR data in detection and bounding box calculation
+- Incorporate monocular image to pointclud pipeline
