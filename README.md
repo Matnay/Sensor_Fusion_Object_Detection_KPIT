@@ -66,7 +66,7 @@ rosrun fusion faster_rcnn
 #### Citing
 
 If you use this work in an academic context, please cite the following publication:
-
+```
 @InProceedings{10.1007/978-981-16-7996-4_40,
 author="Mathur, Pranay
 and Kumar, Ravish
@@ -84,6 +84,6 @@ pages="551--563",
 abstract="Mathur, PranayKumar, RavishJain, Rahul3D Perception of the environment in real-time is a critical aspect for object detection, obstacle avoidance, and classification in autonomous vehicles. This paper proposes a novel 3D object classifier that can exploit data from a LIDAR, a RADAR, and a monocular camera image after orthogonal projection. To achieve this, a learnable architecture is designed end-to-end, which fuses the detection results from multiple sensor modalities initially and exploits continuous convolution subsequently to achieve the desired levels of accuracy. An adaptive algorithm for prediction in real-time is used to automatically increase weightage to prediction results from a particular sensor modality which aids in keeping accuracy invariant to scene changes. To prevent the bias, we are using a training strategy which provides attention to the specific type of sensor. This strategy is inspired by dropout. The entire algorithm has been implemented on the Robot Operating System to make it easier to deploy and transfer. We have experimentally evaluated our method on the NuScenes dataset.",
 isbn="978-981-16-7996-4"
 }
-    
+```
 #### Contact
 - Pranay Mathur [![Gmail: Pranay Mathur](https://img.shields.io/badge/gmail-%23D14836.svg?&style=plastic&logo=gmail&logoColor=white)](mailto:matnay17@gmail.com) [![Linkedin: offjangir](https://img.shields.io/badge/-Pranay_Mathur-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/yash-jangir-6a71651a1)](https://www.linkedin.com/in/pranay-mathur1998/)
